@@ -4,3 +4,4 @@ numpy
 pandas
 scikit-learn
 deep-translator
+gunicorn==20.1.0
