@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #e8f5e9;
+  padding: 30px;
+}
+input, select, button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: darkgreen;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #2E7D32, #43A047, #66BB6A);
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.95;
+  z-index: 2;
+}
+footer a {
+  color: #FFF9C4;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #FFFF8D;
+}
